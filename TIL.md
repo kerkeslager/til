@@ -9,3 +9,5 @@
 # vim
 * `:e!` Reloads the current file with changes from disk.
 * Ctrl-W followed by Shift+<direction key> drags the window.
+* `.` repeats the previous command.
+* `<<` and `>>` de-indent and indent respectively.
