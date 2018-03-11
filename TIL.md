@@ -1,3 +1,6 @@
+# bash
+* To generate passwords, `head /dev/urandom | LC_ALL=C tr -dc "[:graph:]" | head -c 30`. Changing `"[:graph:]"` to something like `'A-Za-z~!@#$%^&*()_+'` changes the characters it chooses from. `LC_ALL=C` is only necessary on systems where `tr` expects encodings other than ASCII.
+
 # erlang
 * In erlang, you can do `X = 1. X = 1.`. This looks like a reassignment, but it isn't; once the variable is bound, it's a pattern match. I finally grokked this when I came across this bit of code: `same(X,X) -> true. same(_,_) -> false.`.
 
