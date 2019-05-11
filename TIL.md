@@ -14,9 +14,12 @@
 * `:e!` Reloads the current file with changes from disk.
 * Ctrl-W followed by Shift+<direction key> drags the window.
 * `.` repeats the previous command.
-* `<<` and `>>` de-indent and indent respectively.
+* `<<` and `>>` de-indent and indent respectively. `==` auto-indents.
 * `{` and `}` move by paragraph.
 * Ctrl-F and Ctrl-B move by page.
 * `t<char>` and `f<char>` jump to the next occurrence of `char` (and the shifted versions jump backward).
 * You can `c`, `d`, or `y` to a search term.
 * `?` searches backward.
+
+# virtualenv
+* `python3 -m venv .env/` to create a virtual environment in `.env/` using Python 3, without having to install anything other than Python 3.
