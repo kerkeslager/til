@@ -5,6 +5,9 @@
 # erlang
 * In erlang, you can do `X = 1. X = 1.`. This looks like a reassignment, but it isn't; once the variable is bound, it's a pattern match. I finally grokked this when I came across this bit of code: `same(X,X) -> true. same(_,_) -> false.`.
 
+# firefox
+* In `about:config`, set `privacy.firstparty.isolate` to `true`. This means that the data of every website will be isolated from each other.
+
 # git
 * `git add -p` Add, prompting for each change.
 * `git pull --rebase` Pull using rebase instead of merge to include remote changes.
